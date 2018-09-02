@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require 'nokogiri'
+#require 'pry'
+require "bundler/setup"
+require "myfirst_gem"
+require 'open-uri'
+
+MyfirstGem::CLI.new.call
+
+
+
+
